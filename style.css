@@ -1,0 +1,113 @@
+.navbar{
+    background-color: rgb(131, 131, 219);
+}
+.dropdown button{
+    color: white;
+}
+.dropdown button:hover{
+    color: black;
+    background-color: white;
+    border: none;
+}
+.conect img:hover{
+        transform: scale(1.1) ;
+    }
+
+.conect{
+    background-image: url('image/budget.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.conect input {
+  background-color: transparent;
+}
+.entete img{
+   width: 100px;
+}
+.premier h1{
+    color: rgb(131, 131, 219);
+    font-size: 100px;
+}
+.premier h4{
+    font-size: 30px;
+    color: rgb(44, 42, 42);
+}
+.eco h2{
+    font-size: 40px;
+}
+.eco h2 span{
+    color: white;
+    background-color: rgb(10, 227, 133);
+}
+.partenaire img{
+        width: 150px;
+}
+.btn{
+    border: none;
+}
+
+.btn a{
+    text-decoration: none;
+    color: rgb(10, 227, 133);
+    font-size: 15px;
+    font-weight: bolder;
+}
+.btn a:hover{
+    color: black;
+    padding: 10px;
+    border-radius: 25px;
+}
+footer{
+    color: white;
+    background-color: rgb(131, 131, 219);
+}
+@media screen  and (max-width:990px) {
+    footer{
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    footer img{
+        display: none;
+    }
+    .trois img{
+        display: none;
+    }
+    .quatre img{
+        display: none;
+    }
+    .deux img{
+        display: none;
+    }
+    .partenaire{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .premier{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+    .premier h1{
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+    }
+    .argent img{
+        display: none;
+    }
+    .argent{
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+}
